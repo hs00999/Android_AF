@@ -34,19 +34,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent i;
         switch (view.getId()) {
             case R.id.alone:
-                i = new Intent(MainActivity.this, Alone.class);
+                i = new Intent(this, Alone.class);
+                i.putExtra("a1","싸움의 고수");
+                i.putExtra("a2","혼밥의 고수");
+                i.putExtra("a3","오늘도나혼자밥");
+                i.putExtra("a4","혼밥혼밥");
                 startActivity(i);
                 break;
             case R.id.date:
-                i = new Intent(MainActivity.this, Date.class);
+                i = new Intent(MainActivity.this, Alone.class);
+                i.putExtra("a1","밀당의 고수");
+                i.putExtra("a2","연애의 고수");
+                i.putExtra("a3","내이상형은 고수");
+                i.putExtra("a4","쌀국수에 고수");
                 startActivity(i);
                 break;
             case R.id.friend:
-                i = new Intent(MainActivity.this, Friend.class);
+                i = new Intent(MainActivity.this, Alone.class);
+                i.putExtra("a1","오늘도너랑");
+                i.putExtra("a2","어제도너였는데");
+                i.putExtra("a3","내일도너일듯");
+                i.putExtra("a4","쌀국수에 고수");
                 startActivity(i);
                 break;
             case R.id.family:
-                i = new Intent(MainActivity.this, Family.class);
+                i = new Intent(MainActivity.this, Alone.class);
+                i.putExtra("a1","패밀리레스토랑");
+                i.putExtra("a2","아빠카드찬스");
+                i.putExtra("a3","엄마카드찬스");
+                i.putExtra("a4","가족끼리끼리");
                 startActivity(i);
                 break;
         }
