@@ -32,17 +32,17 @@
             android:layout_height="match_parent"
             class="com.google.android.gms.maps.MapFragment" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_gps"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_margin="20dp"
-        android:src="@drawable/ic_gps_fixed_white_24dp"
-        app:fabSize="mini"
-        app:backgroundTint="@color/colorPrimary"
-        app:rippleColor="@color/colorPrimaryDark" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_gps_fixed_white_24dp"
+            app:fabSize="mini"
+            app:backgroundTint="@color/colorPrimary"
+            app:rippleColor="@color/colorPrimaryDark" />
 
     </RelativeLayout>
     <LinearLayout
@@ -87,12 +87,12 @@
         android:background="#ffffff"
         android:fillViewport="true"
         android:layout_weight="2">
-    <ListView
-        android:id="@+id/list_item"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        <ListView
+            android:id="@+id/list_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
 
-    </ListView>
+        </ListView>
     </ScrollView>
 </LinearLayout>

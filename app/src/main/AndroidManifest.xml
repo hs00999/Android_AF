@@ -33,7 +33,11 @@
             android:label="@string/map_view_demo_title"/>
         <activity android:name=".Date" />
         <activity android:name=".Friend" />
-        <activity android:name=".Family"></activity>
+        <activity android:name=".Family"/>
+        <activity android:name=".Main3Activity">
+        </activity>
+
+        <service android:name=".LocationService" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
